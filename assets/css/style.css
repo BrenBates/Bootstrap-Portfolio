@@ -1,11 +1,53 @@
-h1 {
-    background-color: lightblue;
+body {
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    
+
+    background-image: url("../images/grey_wash_wall_@2X.png");
+    background-position: left top; 
+
 }
 
-.col-md-3 {
 
-    background-color: lightgrey;
+.nameHeader {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: bold;
 }
+
+.aboutMeHeader { 
+   
+    border-bottom: solid;
+    color: #4aaaa5;
+    border-color: #cccccc;
+    border-width: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+#topnav { 
+   
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#btmnav {
+    
+    background-color: #666666;  
+    border-top:solid;
+    border-color: #4aaaa5;
+    border-width: 3px;
+    color: #ffffff;
+}
+
+
+
+
 /* 
 Bootstrap break points
 
