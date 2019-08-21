@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="assets/css/cssreset.css" type="text/css">
 
   <!-- Boostrap CSS stylesheet and Style.CSS for any necessary tweaking-->
+   <!-- Media query meta tag for viewport responsiveness-->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -88,19 +90,19 @@ Example code for getting text wrapping around image.
     <div class="card px-3">
       
       
-        <div class="col-sm-12 py-3">
-          <div class="page-header">
-            <h1 class="aboutMeHeader">About Me</h1>
-          </div>
-        </div>
         
-
-          
           
             <div class="aboutContent">
               
+              <div class="col-sm-12 py-3">
+        
+                <h1 class="aboutMeHeader">About Me</h1>
+        
+               </div>
+
+               <div class="col-sm-12 py-3"> 
               
-              <img src="assets/images/PictureofBrennen.jpg" align="left" class="pr-3" width="200px" height="200px">
+              <img src="assets/images/PictureofBrennen.jpg" align="left" class="pr-3" id="aboutmepic" height="auto" width="50%">
             
             
               <p>A satellite brewery behind a Fosters brainwashes a blue moon. The King Henry is whacked. A dude
@@ -121,6 +123,8 @@ Example code for getting text wrapping around image.
                 brew.
 
               </p>
+
+              </div>
             </div>
             
 
