@@ -88,6 +88,33 @@ form {
     
 }
 
+/* Experimented with using media queries with the about me photo that has text wrapping.  I ended up using a % for the width and auto for height */
+
+/* @media screen and (max-width: 980px) {
+    #aboutmepic {
+        height: auto;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aboutmepic {
+
+        height: auto;
+        width: 300px;
+        
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #aboutmepic {
+        height: auto;
+        width: 350px;
+    }
+}
+ */
+
 
 
 
